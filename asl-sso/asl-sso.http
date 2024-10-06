@@ -1,0 +1,6 @@
+@asl_sso_HostAddress = http://localhost:5081
+
+GET {{asl_sso_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
