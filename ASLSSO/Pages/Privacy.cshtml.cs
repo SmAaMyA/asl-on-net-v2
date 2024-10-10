@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ASLSSO.Pages;
 
+[Authorize]
 public class PrivacyModel : PageModel
 {
     private readonly ILogger<PrivacyModel> _logger;
@@ -16,4 +18,3 @@ public class PrivacyModel : PageModel
     {
     }
 }
-
