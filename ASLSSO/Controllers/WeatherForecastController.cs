@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 
-namespace asl_sso.Controllers
+namespace ASLSSO.Controllers
 {
     [Authorize]
     [ApiController]

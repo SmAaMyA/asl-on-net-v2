@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asl-sso", "asl-sso\asl-sso.csproj", "{17254B50-364A-4B69-9AD6-56919E67C4BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASLSSO", "ASLSSO\ASLSSO.csproj", "{17254B50-364A-4B69-9AD6-56919E67C4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

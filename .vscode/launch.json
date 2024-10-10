@@ -6,9 +6,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/asl-sso/bin/Debug/net8.0/asl-sso.dll",
+            "program": "${workspaceFolder}/ASLSSO/bin/Debug/net8.0/ASLSSO.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/asl-sso",
+            "cwd": "${workspaceFolder}/ASLSSO",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
@@ -32,7 +32,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/asl-sso/asl-sso.csproj"
+                "appProject": "${workspaceFolder}/ASLSSO/ASLSSO.csproj"
             }
         }
     ]

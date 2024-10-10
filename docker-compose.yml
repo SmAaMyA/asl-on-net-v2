@@ -7,6 +7,6 @@ services:
     image: aslsso
     build:
       context: .
-      dockerfile: asl-sso/Dockerfile
+      dockerfile: ASLSSO/Dockerfile
     ports:
       - 5081:5081

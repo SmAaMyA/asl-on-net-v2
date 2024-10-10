@@ -7,7 +7,7 @@ services:
     image: aslsso
     build:
       context: .
-      dockerfile: asl-sso/Dockerfile
+      dockerfile: ASLSSO/Dockerfile
       args:
         - configuration=Debug
     ports:

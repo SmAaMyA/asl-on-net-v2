@@ -1,4 +1,4 @@
-namespace asl_sso
+namespace ASLSSO
 {
     public class WeatherForecast
     {
