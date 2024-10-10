@@ -2,7 +2,7 @@
 // using Microsoft.Identity.Web;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ASLSSO.Data;
+using ASLSSO.Areas.Identity.Data;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
